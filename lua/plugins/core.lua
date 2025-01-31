@@ -2,7 +2,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "evergarden",
     },
   },
+  {
+    "comfysage/evergarden"
+  },
+  {
+      "OXY2DEV/markview.nvim",
+      lazy = false
+  }
 }
